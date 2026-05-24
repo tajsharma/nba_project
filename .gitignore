@@ -1,0 +1,18 @@
+#Secrets  & Local config
+.env 
+
+#Local data landing zone (never commit raw pulls)
+data/raw/
+
+#Python 
+.venv/
+__pycache__/
+*.pyc 
+
+#dbt artifacts
+target/
+dbt_packages/
+logs/
+
+#macOS
+.DS_Store
